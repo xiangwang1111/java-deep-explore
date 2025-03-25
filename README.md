@@ -89,10 +89,10 @@
   - [javabook-cloud](https://github.com/xiangwang1111/javabook-cloud)：第二篇《应用技术》部分的源代码。这是一个`Spring Cloud Alibaba`项目，包含了`javabook-core`、`javabook-application`、`javabook-transaction`、`javabook-iotandnetty`、`javabook-riskcontrol`和`javabook-nginxlua`这六个子模块，其中：
 
     - `javabook-core`：是所有其他子模块都需要依赖的子模块；
-    - `javabook-application`：《第8章 支付系统设计模式》和《第9章 认证与授权》的源代码；
-    - `javabook-transaction`：《第10章 可靠消息最终一致性》的源代码；
-    - `javabook-iotandnetty`：《第11章 用Netty实现物联网》的源代码；
-    - `javabook-riskcontrol`：《第12章 规则引擎与风控系统》的源代码；
+    - `javabook-application`：《第8章 支付系统设计模式》（见[CSDN专栏《支付系统中的设计模式》](https://blog.csdn.net/lostrex/article/details/129149387)）和《第9章 认证与授权》的源代码；
+    - `javabook-transaction`：《第10章 可靠消息最终一致性》（见[CSDN专栏《基于SpringCloud的可靠消息最终一致性》](https://blog.csdn.net/lostrex/article/details/129179394)）的源代码；
+    - `javabook-iotandnetty`：《第11章 用Netty实现物联网》（见[CSDN专栏《用Netty实现物联网》](https://blog.csdn.net/lostrex/article/details/129176005)）的源代码；
+    - `javabook-riskcontrol`：《第12章 规则引擎与风控系统》（见[CSDN专栏《规则引擎与风控系统》](https://blog.csdn.net/lostrex/article/details/129177938)）的源代码；
     - `javabook-nginxlua`：《第13章 Nginx与OpenResty》的源代码。
 
   - [javabook-practice](https://github.com/xiangwang1111/javabook-practice)：第三篇《工程实践》部分的源代码。
@@ -101,7 +101,7 @@
 
 3. 章节名称xxx.md对应的本章内容资源目录。例如，`chapter01.md`章节中所有的插图（.graffle源文件）、脑图、日志文件、类图、excel文件、脚本等，都在`chapter01`目录中。
 
-4. 如无特别声明，本书的所有代码、应用和其他相关软件的运行环境如下：
+4. 如无特别声明，本书所有的代码、应用和其他相关软件的运行环境如下：
 
   - MacOS (Intel i9八核) 14.1.2 (23B92) Sonoma；
   - Windows 10专业版 22H2-19045.2364（虚拟机）；
