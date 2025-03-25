@@ -75,3 +75,42 @@
 有鉴于上述种种，笔者本着“自己动手，丰衣足食”的理念，也为了尽可能节省广大读者的宝贵时间，将自身多年的开发经验、失败教训和实践技巧都融入到了本书之中，同时附以大量完整的案例代码、配置模板、脚本文件。
 
 希望此书能帮助广大读者找到并见证属于自己的“Eureka Moment！”
+
+<br>
+<hr>
+<br>
+
+# 本书资源
+
+1. 源代码：
+
+  - [javabook-base](https://github.com/xiangwang1111/javabook-base)：第一篇《开发基础》部分的源代码。因为Java的依赖包之间可能会造成一些冲突，导致项目无法启动或正常运行，所以笔者在`javabook-base`的`pom.xml`文件中有相应的注释说明，只需找到“Begin”和“End”之间的部分即可。
+
+  - [javabook-cloud](https://github.com/xiangwang1111/javabook-cloud)：第二篇《应用技术》部分的源代码。这是一个`Spring Cloud Alibaba`项目，包含了`javabook-core`、`javabook-application`、`javabook-transaction`、`javabook-iotandnetty`、`javabook-riskcontrol`和`javabook-nginxlua`这六个子模块，其中：
+
+    - `javabook-core`：是所有其他子模块都需要依赖的子模块；
+    - `javabook-application`：《第8章 支付系统设计模式》和《第9章 认证与授权》的源代码；
+    - `javabook-transaction`：《第10章 可靠消息最终一致性》的源代码；
+    - `javabook-iotandnetty`：《第11章 用Netty实现物联网》的源代码；
+    - `javabook-riskcontrol`：《第12章 规则引擎与风控系统》的源代码；
+    - `javabook-nginxlua`：《第13章 Nginx与OpenResty》的源代码。
+
+  - [javabook-practice](https://github.com/xiangwang1111/javabook-practice)：第三篇《工程实践》部分的源代码。
+
+2. 项目中用到的相关数据库脚本、shell脚本文件、项目配置文件，如无特别说明，均统一放在每个项目源代码各自的`src/main/resources`目录下。
+
+3. 章节名称xxx.md对应的本章内容资源目录。例如，`chapter01.md`章节中所有的插图（.graffle源文件）、脑图、日志文件、类图、excel文件、脚本等，都在`chapter01`目录中。
+
+4. 如无特别声明，本书的所有代码、应用和其他相关软件的运行环境如下：
+
+  - MacOS (Intel i9八核) 14.1.2 (23B92) Sonoma；
+  - Windows 10专业版 22H2-19045.2364（虚拟机）；
+  - CentOS 7.9.2009(Core)×64（虚拟机）；
+  - Docker 20.10.8；
+  - Oracle JDK1.8.0_391、Oracle JDK-12.0.2、Oracle JDK 21.0.1；
+  - VMware Fusion Pro 12.2.5(20904517)；
+  - Navicat Premium 15.0.29；
+  - StarUML 3.2.2；
+  - OmniGraffle 7.22.5 (GM-v205.43.4)；
+  - OmniPlan 3.14.4 (v202.14.0)；
+  - XMind 8 Update 9 (R3.7.9.201912052356)。
