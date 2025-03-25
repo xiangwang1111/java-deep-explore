@@ -38,7 +38,7 @@
 
 - 第2部分：应用技术篇。包括第8章支付系统设计模式，第9章认证与权限，第10章可靠消息最终一致性，第11章用Netty实现物联网，第12章规则引擎与风控系统，第13章Nginx与OpenResty，共六章。
 
-  - 第8章讲解了针对业务、产品、技术、运营部门先后提出的数次需求改进，笔者在支付系统中尝试使用了若干种设计模式，以应对和拥抱这种变化，提升开发效率。所用到的设计模式包括策略模式、构造器模式、模板方法模式、外观模式、状态模式、备忘录模式等。阅读这一章前需要读者先具备一些设计模式的相关知识，这样理解起来会更容易一些。这部分内容作为付费阅读，已经放在了[CSDN专栏《支付系统中的设计模式》](https://blog.csdn.net/lostrex/article/details/129149387)中。
+  - 第8章讲解了针对业务、产品、技术、运营部门先后提出的数次需求改进，笔者在支付系统中尝试使用了若干种设计模式，以应对和拥抱这种变化，提升开发效率。所用到的设计模式包括策略模式、构造器模式、模板方法模式、外观模式、状态模式、备忘录模式等。阅读这一章前需要读者先具备一些设计模式的相关知识，这样理解起来会更容易一些。这部分内容作为付费阅读，已经放在了[CSDN专栏《支付系统设计模式》](https://blog.csdn.net/lostrex/article/details/129149387)中。
 
   - 第9章讲解了一般应用系统中后台管理的权限设计问题。从借鉴Spring Security框架拦截机制开始，到实现自定义的RBAC权限系统，让读者知晓权限设计的关键技术点有哪些。接着介绍并实现当前流行的OAuth 2.0开放授权机制，并以Github代替微信实现了OAuth 2.0的第三方登录。同时还展示了如何接受其他应用的申请，成为“第三方”。之后介绍了动态令牌的原理，并将之与OAuth 2.0结合。
 
@@ -89,7 +89,7 @@
   - [javabook-cloud](https://github.com/xiangwang1111/javabook-cloud)：第二篇《应用技术》部分的源代码。这是一个`Spring Cloud Alibaba`项目，包含了`javabook-core`、`javabook-application`、`javabook-transaction`、`javabook-iotandnetty`、`javabook-riskcontrol`和`javabook-nginxlua`这六个子模块，其中：
 
     - `javabook-core`：是所有其他子模块都需要依赖的子模块；
-    - `javabook-application`：《第8章 支付系统设计模式》（见[CSDN专栏《支付系统中的设计模式》](https://blog.csdn.net/lostrex/article/details/129149387)）和《第9章 认证与授权》的源代码；
+    - `javabook-application`：《第8章 支付系统设计模式》（见[CSDN专栏《支付系统设计模式》](https://blog.csdn.net/lostrex/article/details/129149387)）和《第9章 认证与授权》的源代码；
     - `javabook-transaction`：《第10章 可靠消息最终一致性》（见[CSDN专栏《基于SpringCloud的可靠消息最终一致性》](https://blog.csdn.net/lostrex/article/details/129179394)）的源代码；
     - `javabook-iotandnetty`：《第11章 用Netty实现物联网》（见[CSDN专栏《用Netty实现物联网》](https://blog.csdn.net/lostrex/article/details/129176005)）的源代码；
     - `javabook-riskcontrol`：《第12章 规则引擎与风控系统》（见[CSDN专栏《规则引擎与风控系统》](https://blog.csdn.net/lostrex/article/details/129177938)）的源代码；
